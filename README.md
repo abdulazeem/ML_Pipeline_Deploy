@@ -7,6 +7,8 @@
 3) Develop the code in Jupyter labs
 4) Install appropriate libraries with requirements.txt
 5) Create yaml file and keep all variables or static filenames in it.
+6) Build Ingestion, Validation Data Pipeline
+
 
 # How to install from requirements?
 1) pip install -r requirements.txt

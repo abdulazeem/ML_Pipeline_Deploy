@@ -1,2 +1,10 @@
 datapath: 'data'
-train_filepath:
+train_filepath: 'adult-training.csv'
+
+train_req_cols: ['age', 'job_type', 'flnwgt', 'education', 'experience',
+       'marital_status', 'job_position', 'relationship', 'race', 'gender',
+       'location', 'salary']
+
+test_req_cols: ['age', 'job_type', 'flnwgt', 'education', 'experience',
+       'marital_status', 'job_position', 'relationship', 'race', 'gender',
+       'location']
