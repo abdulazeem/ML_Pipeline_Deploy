@@ -1,5 +1,5 @@
 # ML Model and Deployment
-
+![img.png](img.png)
 
 # Complete ML Life Cycle
 1) Create a new project and build a venv.
