@@ -14,5 +14,4 @@
 1) pip install -r requirements.txt
 
 # Steps to create ML Pipeline
-
 1) Step1: Create all files in Jupyter Notebook as a first step

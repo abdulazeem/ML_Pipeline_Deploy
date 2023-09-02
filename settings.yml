@@ -1,10 +1,43 @@
-datapath: 'data'
-train_filepath: 'adult-training.csv'
+training_path: 'data/training_data'
+train_filename: 'adult-training.csv'
 
-train_req_cols: ['age', 'job_type', 'flnwgt', 'education', 'experience',
+inference_path: 'data/inference_data'
+inference_filename: 'inference_data.csv'
+inference_results_path: 'output/prediction_results/pred_results.csv'
+
+model_predict_path: 'output\model_artifacts'
+model_name: 'prediction_pipeline.pkl'
+
+
+
+train_req_cols: ['age', 'job_type', 'education', 'experience',
        'marital_status', 'job_position', 'relationship', 'race', 'gender',
        'location', 'salary']
 
-test_req_cols: ['age', 'job_type', 'flnwgt', 'education', 'experience',
+inf_req_cols: ['age', 'job_type', 'education', 'experience',
+       'marital_status', 'job_position', 'relationship', 'race', 'gender',
+       'location']
+
+ori_target: 'salary'
+
+target_type: '<=50K'
+
+cat_cols: ['job_type', 'education', 'marital_status',
+       'job_position', 'relationship', 'race', 'gender', 'location']
+
+cat_cols1: ['job_type', 'education', 'marital_status',
+       'job_position', 'relationship', 'race', 'gender']
+
+cat_cols2: ['location']
+
+num_cols: ['age', 'experience']
+
+num_cols2: ['age']
+
+ml_cols: ['age', 'job_type', 'education', 'experience', 'marital_status',
+       'job_position', 'relationship', 'race', 'gender', 'location',
+       'target']
+
+test_req_cols: ['age', 'job_type',  'education', 'experience',
        'marital_status', 'job_position', 'relationship', 'race', 'gender',
        'location']
